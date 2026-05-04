@@ -1,0 +1,156 @@
+body,html{
+    padding:0px;
+    background-color: #eeab6d1b;
+    align-items: center;
+    height:100%;
+    width:100vw;
+    margin:0px;
+    overflow: auto;
+    
+}
+
+section{
+    padding: 10px
+}
+
+
+h1,h2{
+    justify-self: center;
+}
+
+h3{
+    color:white
+}
+
+
+img{
+    max-width: 20vw;
+    border-color: white;
+    border-style: solid;
+    margin:10px
+}
+
+#intro_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    /* background-color: rgba(217, 250, 217, 0.342); */
+    background-color: #EEAB6D;
+    border-radius: 20px ;
+    margin:0vw 10vw 0vw 10vw;
+}
+
+#events_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: #EEAB6D;
+    border-radius: 20px ;   
+    margin:0vw 10vw 0vw 10vw;
+}
+
+#services_div{
+    align-items: center;
+    justify-items: center;
+    background-color: #EEAB6D;
+    border-radius: 20px ;  
+    margin:0vw 10vw 0vw 10vw;
+}
+
+#contact_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: #EEAB6D;
+    border-radius: 20px ;  
+    /* padding:0vw 10vw 0vw 10vw; */
+    margin:0vw 10vw 0vw 10vw ;
+    /* width:70vw; */
+}
+
+
+.button_div{
+    margin-top: 10px;
+}
+
+.text_block{
+    /* padding: 5vw 15vw 5vw 0vw; */
+    padding: 5vw 5vw 5vw 0vw;
+    /* border-style: solid; */
+}
+
+#form_message_box{
+    width:30vw;
+    height:30vh
+}
+
+#nav_div{
+    /* display: flexbox; */
+    position: sticky;
+    top:0;
+    /* z-index: 1000; */
+    /* overflow: hidden; */
+    height:auto;
+    /* width: 100vw; */
+    background-color: #165E14;
+    align-content: center;
+    padding-left: 10px;
+
+}  
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding-left: 10px;
+  padding: 0;
+}
+
+li{
+    float:left;
+}
+
+a{
+    display: inline-block;
+    padding:10px;
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    background-color: #C1Ff72;
+    color:green
+}
+
+a.active{
+    background-color: beige;
+    display: inline-block;
+    padding:10px;
+    text-decoration: none;
+    color:green;
+}
+
+p{
+    font-size: 1em;
+    color:white
+}
+
+#footer_div{
+    overflow: hidden;
+    height:auto;
+    /* width: 100vw; */
+    background-color: green;
+    overflow:hidden;
+    justify-items: center;
+    padding:10px 0px 10px 0px
+}  
+
+img.social_icon{
+    max-height: 4vh;
+}
+
+section{
+    align-items: center;
+}
