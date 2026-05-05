@@ -24,9 +24,8 @@ h3{
 
 img{
     max-width: 20vw;
-    border-color: white;
-    border-style: solid;
-    margin:10px
+    margin:10px;
+    border-radius: 20px ;
 }
 
 #intro_div{
