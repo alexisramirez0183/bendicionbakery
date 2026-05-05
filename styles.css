@@ -144,7 +144,9 @@ p{
 
 img.social_icon{
     max-height: 4vh;
-    height: 4vh
+    height: 4vh;
+    padding:0;
+    margin:0;
 }
 
 section{
