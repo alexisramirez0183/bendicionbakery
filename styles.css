@@ -148,12 +148,20 @@ p{
 
 img.social_icon{
     max-height: 4vh;
+    height: 4vh
 }
 
 section{
     align-items: center;
 }
 
-.services_text{
+div.services_text{
     padding: 0vw 5vw 5vw 5vw;
+}
+
+ul.services_list{
+  margin: 0;
+  padding-left: 10px;
+  padding: 0;
+  display:inline
 }
