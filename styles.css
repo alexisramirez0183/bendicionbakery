@@ -207,4 +207,12 @@ div.single_event_div{
     input, #form_message_box{
         width:100%
     }
+
+    p{
+        text-align: center;
+    }
+
+    div.single_event_div{
+        text-align: center;
+    }
 }
