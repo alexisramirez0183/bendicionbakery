@@ -20,7 +20,9 @@ h1,h2{
 img{
     margin:10px;
     border-radius:20px;
-    max-height:50vh;
+    max-height:70vh;
+    /* max-height: 50dvh; */
+    /* max-width: 80%; */
 }
 
 #intro_div{
@@ -73,7 +75,7 @@ img{
 
 .text_block{
     /* padding: 5vw 15vw 5vw 0vw; */
-    padding: 5vw 5vw 5vw 0vw;
+    padding: 2vw 2vw 2vw 0vw;
     /* border-style: solid; */
 }
 
@@ -184,6 +186,21 @@ div.single_event_div{
     padding:  0.5vw 5vw 0.5vw 5vw;
 }
 
+button{
+    background-color: #165E14;
+    color: white;
+}
+
+button:hover{
+    background-color: #C1Ff72;
+    color:green
+}
+
+#form_div{
+    width:80%;
+    margin:10px;
+}
+
 @media screen and (width <= 600px){
     #intro_div, #events_div, #contact_div{
         display:grid;
@@ -201,7 +218,7 @@ div.single_event_div{
     }
 
     #form_div{
-        width:70vw;
+        width:80%;
     }
 
     input, #form_message_box{
@@ -214,5 +231,9 @@ div.single_event_div{
 
     div.single_event_div{
         text-align: center;
+    }
+
+    .img_div{
+        grid-row: 1;
     }
 }
